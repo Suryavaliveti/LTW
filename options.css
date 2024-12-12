@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+.container{
+    place-items:center;
+}
+.option{
+    color: whitesmoke;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 2rem;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-style: italic;
+}
+#sp{
+    background-image: url("./sp.jpg");
+
+    
+
+}
+#we{
+    
+    background-image: url("./we.jpg");
+}

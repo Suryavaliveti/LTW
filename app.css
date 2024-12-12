@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:bisque;  
+}
+.container {
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 60vb;
+    border-radius: 10%;
+  }
+#text{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 60px;
+}
+.item{
+    margin-bottom: 20px;
+}
+#signup{
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+#btn{
+    cursor: pointer;
+
+}
+
+  

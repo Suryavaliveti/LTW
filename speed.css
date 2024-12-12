@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    min-height: 60vh;
+    margin-top: 10%;
+    
+}
+.box{
+    border-radius: 10px;
+    border-color: beige;
+}
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+    background: linear-gradient(to right,red,blue);
+    background-clip:text;
+    color: transparent;
+}
+#text,#input{
+    height: auto;
+    width: 60vw;
+    font-size: 25px;
+}
+.div{
+    margin-top: 10px;
+}
+#btn,#error{
+    cursor: pointer;
+}
